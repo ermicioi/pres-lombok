@@ -13,9 +13,9 @@ public class WorldTest {
     public void testWorld() {
         final Set<Point2D> points = new HashSet<>();
         points.add(new Point3D(1, 2, 1));
-        points.add(new Point3D(1, 3, 1));
+        points.add(new Point3D(1, 2, 1));
 
-        assertEquals(2, points.size()); // < Updated
+        assertEquals(1, points.size()); // < Updated
     }
 
 }
