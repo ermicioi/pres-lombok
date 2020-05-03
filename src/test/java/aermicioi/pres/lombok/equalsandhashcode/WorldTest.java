@@ -15,7 +15,7 @@ public class WorldTest {
         points.add(new Point(1, 2, 1));
         points.add(new Point(1, 2, 2));
 
-        assertEquals(1, points.size());
+        assertEquals(2, points.size()); // < Updated
     }
 
 }
