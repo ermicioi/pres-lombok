@@ -2,7 +2,7 @@ package aermicioi.pres.lombok.equalsandhashcode;
 
 import lombok.EqualsAndHashCode;
 
-@EqualsAndHashCode
+@EqualsAndHashCode(callSuper = true)
 public class Point3D extends Point2D {
 
     private final int z;
