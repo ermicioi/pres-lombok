@@ -2,7 +2,7 @@ package aermicioi.pres.lombok.equalsandhashcode;
 
 import lombok.EqualsAndHashCode;
 
-@EqualsAndHashCode
+@EqualsAndHashCode(doNotUseGetters = true)
 public class Point {
 
     private final int x;
